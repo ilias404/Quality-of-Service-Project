@@ -147,15 +147,3 @@ QoS is a powerful tool for optimizing home network performance. The implementati
 ## Tools Used
 
 - **Cisco Packet Tracer** (v8.2.2) — network topology simulation, CLI configuration (router/switch), and QoS scenario testing
-
-## Suggested Repository Structure
-
-.
-
-├── README.md
-
-├── topology/          \# Packet Tracer .pkt file
-
-├── configs/           \# Configuration excerpts (router, switch)
-
-└── docs/              \# Project report / presentation  
