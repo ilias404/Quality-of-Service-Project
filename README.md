@@ -1,3 +1,8 @@
+# Presentation
+
+![Ici](https://www.canva.com/design/DAGoGwTDFm8/35JJel1J4f7a52BGF-JD_Q/view?utm_content=DAGoGwTDFm8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he570613bb1)
+
+
 # Analyse de la Qualité de Service (QoS) sur un Réseau IP
 
 Projet de simulation réseau réalisé sous **Cisco Packet Tracer**, visant à concevoir une topologie domestique et à y implémenter une politique de priorisation du trafic (QoS) afin de garantir de bonnes performances aux applications et appareils prioritaires.
