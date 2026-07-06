@@ -52,7 +52,7 @@ How can good performance be guaranteed for priority applications on a shared hom
 5. **Marking configuration** — Assigning CoS values on the switch (`mls qos cos`) to preserve prioritization at Layer 2\.
 
 ### Configuration Excerpt (Router)
-
+```
 HomeRouter(config)\#class-map match-all PC0-TRAFFIC
 
 HomeRouter(config-cmap)\#match access-group 101
@@ -80,9 +80,11 @@ HomeRouter(config-pmap-c)\#bandwidth percent 35
 HomeRouter(config)\#interface GigabitEthernet0/1
 
 HomeRouter(config-if)\#service-policy output QOS-POLICY
+```
 
 ### Configuration Excerpt (Switch)
 
+```
 HomeSwitch(config)\#mls qos
 
 HomeSwitch(config)\#interface FastEthernet0/1
@@ -96,6 +98,7 @@ HomeSwitch(config)\#interface range FastEthernet0/2-4
 HomeSwitch(config-if-range)\#mls qos cos 1
 
 HomeSwitch(config-if-range)\#mls qos cos override
+```
 
 Dynamic **OSPF** routing is configured on the router for LAN/WAN interconnection, along with access security (passwords, MOTD banner, password encryption).
 
