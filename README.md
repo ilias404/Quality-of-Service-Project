@@ -2,12 +2,6 @@
 
 Projet de simulation réseau réalisé sous **Cisco Packet Tracer**, visant à concevoir une topologie domestique et à y implémenter une politique de priorisation du trafic (QoS) afin de garantir de bonnes performances aux applications et appareils prioritaires.
 
-## Équipe
-
-- Amrani Ilias  
-- Bouazzaoui Younes  
-- Rhoul Rayane
-
 ## Contexte et problématique
 
 Avec la multiplication des appareils connectés dans les foyers (PC, laptops, téléphones IP, TV smart, etc.), le partage de la bande passante devient un enjeu critique. Ce projet répond à la question :
